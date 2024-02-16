@@ -10,6 +10,7 @@ apiCall();
     <div className="App">
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
+        <br></br>
         <p>
           Edit <code>src/App.js</code> and save to reload.
         </p>
