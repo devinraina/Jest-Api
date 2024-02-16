@@ -1,7 +1,11 @@
-import logo from './logo.svg';
 import './App.css';
+import apiCall from './compnents/apiCall';
+import logo from './jest-svgrepo-com.svg';
 
 function App() {
+
+apiCall();
+
   return (
     <div className="App">
       <header className="App-header">
@@ -9,6 +13,7 @@ function App() {
         <p>
           Edit <code>src/App.js</code> and save to reload.
         </p>
+        <h1>Hello world React!</h1>
         <a
           className="App-link"
           href="https://reactjs.org"
